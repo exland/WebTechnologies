@@ -1,0 +1,385 @@
+body
+{
+    background-color: #1b1c1c;
+}
+dialog
+{
+    border-radius: 10px;
+    background-color: #C37B89;
+    outline: none;
+    border : none !important;
+}
+.dialogBtn
+{
+    text-align: center;
+    outline: none !important;
+    border: none !important;
+    border-radius: 10px;
+    background-color: #F0EBCC;
+    width: 100%;
+    size: 20px;
+}
+.container
+{
+  width: 100%;
+}
+.note
+{
+    font-smooth: always;
+    font-smooth: 2em;
+    text-align: center;
+    height: 80px;
+    background-color: #ACECF7;
+    color: black;
+    font-weight: bold;
+    line-height: 80px;
+    border-radius:  10px;
+    margin-top: 3%;
+    width:92%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.reg-form
+{
+    margin-top: 10%;
+}
+
+.form-content
+{
+    margin-top: 5%;
+    padding: 5%;
+    border: 1px solid #3e3f40;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    background-color: #F0EBCC;
+    width:92%;
+    margin-left: 4%;
+    margin-right: 4%;
+
+}
+
+.padsidebar
+{
+  margin-right: 250px;
+}
+.form-control
+{
+    border-radius:30px;
+    background-color: #1b1c1c;
+    border: 1px solid #3e3f40;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active
+{
+    background-color: #1b1c1c;
+    border-color: #D6F6DD;
+    color: white;
+
+}
+.btnSubmit
+{
+    border:none;
+    border-radius:30px;
+    width: 100%;
+    position: relative;
+    background-color: #EAE7C6;
+    font-size: 16px;
+    color: black;
+    padding: 0.8em 1.8em;
+    cursor:pointer;
+    user-select:none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    font-size: large;
+    -webkit-transition-duration: 0.4s; /* Safari */
+}
+.btnSubmit:hover
+{
+    transition-duration: 0.1s;
+    background-color: #EAE7C6;
+}
+.btnSubmit:after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius:30px;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px 40px #EAE7C6;
+}
+.btnSubmit:active:after
+{
+    box-shadow: 0 0 0 0 #EAE7C6;
+    position: absolute;
+    border-radius:10px;
+    left: 0;
+    top:0;
+    opacity: 1;
+    transition: 0s;
+} 
+.btnSubmit:active
+{
+    top: 1px;
+}
+body
+{
+    background-color: #1b1c1c;
+    color:black;
+}
+.navbar
+{
+  position:sticky;
+  top: 0;
+    background-color: #C37B89 !important;
+    width:100%;
+    align-items:flex-end;
+  
+
+}
+
+.nav-item
+{
+  font-size: large;
+}
+
+.btnLogout
+{
+  display: none;
+  margin-top: 6px;
+  border:none;
+  border-radius:10px;
+  position: relative;
+  background-color: #C37B89;
+  color: black;
+  font-size: large;
+}
+
+#newQuestion
+{
+
+  border:none;
+  border-radius:5px;
+  position: relative;
+  color: black;
+  font-size: large;
+}
+
+#newAnswer
+{
+
+  border:none;
+  border-radius:5px;
+  position: relative;
+  color: black;
+  font-size: large;
+}
+
+#card3
+{
+  background-color: #61b0b7;
+}
+
+#input exampleFormControlTextarea1
+{
+    color: white !important; 
+}
+
+
+#input 
+{
+    background-color: #2c2c2c !important;
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    border-radius: 10px;
+    text-align: left;
+    color: white;
+}
+
+
+
+
+#submitBtn
+{
+    border:black;
+    border-radius:10px;
+    width: 100%;
+    position: abs;
+    background-color: #EAE7C6;
+    font-size: 16px;
+    color: black;
+    padding: 0.8em 1.8em;
+    cursor:pointer;
+    user-select:none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    width: auto;
+}
+
+
+
+.upvoteBtn
+{
+  background: url(../upvote-svgrepo-com.svg);
+  transition: transform 0.5s;
+}
+.upvoteBtn:hover
+{
+  transform: scale(1.5) rotate(720deg);
+}
+
+.upvoteBtn2
+{
+  background: url(../upvote-svgrepo-com.svg);
+  transition: transform 0.5s;
+}
+.upvoteBtn2:hover
+{
+  transform: scale(1.5) rotate(720deg);
+}
+
+a:link
+{
+    color: rgb(0, 0, 0);
+}
+
+a:visited
+{
+    color: rgb(0, 0, 0);
+}
+  .wrapper {
+    margin: 10vh;
+ }
+ .card-container
+ {
+  margin-left: 20px;
+  margin-right: 70px;
+
+ }
+ .card .card-header
+ {
+   display: flex;
+   justify-content: space-between;
+ }
+  .card {
+    border: none;
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+    background-color: #77ACF1;
+    color: black;
+    margin-top: 30px; 
+ }
+
+  .card .card-footer {
+    background: none;
+    border-top: none;
+ }
+
+  .card:hover .card-body {
+    margin-top: 5px;
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+ }
+ 
+ .card
+{
+    color: black;
+    overflow-y: scroll;
+}
+
+.questiondate
+{
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin-right: 20px;
+}
+
+
+#main
+{
+  padding-bottom: 50px;
+}
+
+::-webkit-scrollbar
+{
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+img {
+  border-radius: 20px;
+}
+
+
+/* Sidebar Styles */
+
+#sidebar {
+  
+  margin-top: 30px;
+  border-radius: 10px;
+  outline: #61b0b7;
+  outline: solid #C37B89;;
+  z-index: 1000;
+  position: fixed;
+  right: 250px;
+  width: 280px;
+  height: 100%;
+  margin-right: -230px;
+  overflow-y: auto;
+  background: #1b1c1c;
+}
+
+#sidebar header {
+  position: fixed;
+  z-index: 1000;
+  width: 280px;  
+  background-color:#C37B89;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+  border:black;
+  border-radius:10px;
+}
+
+#card6
+{
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#card6body
+{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.text7
+{
+  font-size: 14px;
+}
+#sidebar header a {
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+#sidebarnavbar
+{
+  margin-top: 40px;
+  margin-bottom: 130px;
+}

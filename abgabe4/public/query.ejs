@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Web Technology</title>
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+  <script src="/js/jquery-3.6.0.min.js"></script>
+  <script  type="text/javascript" src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/css/index.css">
+  <link rel="stylesheet" type="text/css" href="/css/footer.css">
+  <script src="/js/index.js" defer></script>
+
+  </head>
+
+  <body>
+    <div id="main">
+
+ 
+      <nav class="navbar navbar-expand fixed-top navbar-expand-sm bg-dark">
+        
+        <ul class="nav">
+          
+          <li class="nav-item">
+            <a class="nav-link" id="homepage" href="/index">Homepage</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="homepage" href="/new">Ask</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="loginBtn" href="/login">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="registerBtn" href="/register">Register</a>
+          </li>
+          <li class="nav-item">
+            <button type="button" id="logoutBtn" class="btnLogout">Logout</button>
+          </li>
+          
+    
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <input type="text" class="form-control form-control-lg" id="Userquery" placeholder="Search a question...">
+          </li>
+        </ul>
+      </nav>
+
+
+
+
+      <div class="card-container" id="card-container">
+        <% questions.forEach(function(question) { %>
+          <div class="card" id=card2>
+            <div class="card-header">
+              <i>User: <%=question.OwnerUserId%></i>
+              <i>Upvotes: <%=question.Score%></i>
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title mt-0 "><a class="text" id="title5" href="<%= question.id%>"">
+                  <%=question.Title%>
+                </a></h4>
+              
+            </div>
+            <div class=" card-footer">
+              <h6 class="usertag" id="author1"><small>
+                  <%=question.CreationDate%>
+                </small>
+
+                </small>
+              </h6>
+            </div>
+          </div>
+          <% }); %>
+      </div>
+      
+    
+    
+      <i class="fab fa-accessible-icon"></i>
+    <i class="fab fa-align-justify"></i>
+
+
+
+     </div>
+    <footer id="page-footer blue pt-4 footer">
+        <div class="panel panel-default footer" id="footer-panel">
+          <div id="about-text">
+            <a class="something" style="font-style: italic; color: rgb(0, 0, 0);" id="loginMsg"></a>
+            <a href="/about.html"> About</a>
+          </div>
+        </div>
+    </footer>
+
+  </body>

@@ -1,0 +1,40 @@
+#footer-panel
+{
+  
+  bottom: 0;
+  position: fixed;
+  height: 25px;
+
+  background-color: #C37B89 !important;
+  width: 100%;
+}
+
+#about-text
+{
+  margin-left: 20px;
+  margin-right: 20px;
+  vertical-align:baseline;
+  display: flex;
+  justify-content: space-between;
+
+}
+#footer-panel
+{
+
+  background-color: #D6F6DD;
+  font-size: large;
+  z-index: 10000;  
+}
+
+#main
+{
+    padding-bottom: 40px;
+}
+
+@media print
+{
+    #footer-panel
+    {
+        visibility: hidden;
+    }
+}
